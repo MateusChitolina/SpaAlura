@@ -1,0 +1,30 @@
+@import '../abstract/variaveis';
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1em 3em;
+    .container__descricao {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+        .container__titulo {
+            font-size: $tamanho-do-texto / 1.3;
+            font-weight: bold;
+            color: $cor-primaria;
+        }
+        
+        .container__sub-titulo {
+            font-size: $tamanho-do-texto / 2;
+            font-weight: 500;
+            color: $cor-secundaria;
+        }
+        
+        .container__paragrafo {
+            font-size: $tamanho-do-texto / 2.7;
+            line-height: 1.5;
+        }
+    }    
+}
+
+
