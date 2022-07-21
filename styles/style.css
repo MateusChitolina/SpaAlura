@@ -63,9 +63,10 @@ nav ul li a:hover {
 #servicos .cards {
   display: flex;
   justify-content: space-evenly;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
 }
 #servicos .cards .card {
-  widows: 360px;
   text-align: center;
 }
 #servicos .cards .card h5 {
@@ -80,6 +81,7 @@ nav ul li a:hover {
   font-weight: 300;
   color: #495371;
   line-height: 1.25rem;
+  max-width: 548px;
 }
 #servicos .cards .card .img-container {
   padding-bottom: 2px;
